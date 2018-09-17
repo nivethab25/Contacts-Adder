@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ContactsAdder</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_add">Add</string>
+    <string name="name">Firstname Lastname</string>
+    <string name="welcomeMessage">Welcome to ContactsAdder App!</string>
+    <string name="successMessage">Contact added successfully!</string>
+    <string name="failureMessage">Contact was not added!</string>
+    <string name="nonemptyMessage">Please enter Firstname and Lastname!</string>
+    <string name="spaceMessage">Firstname and Lastname should be separated by space!</string>
+</resources>

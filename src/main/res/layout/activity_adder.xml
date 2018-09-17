@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.nivetha.cs478.contactsadder.AdderActivity">
+
+    <TextView
+        android:id="@+id/txtV_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/eTxt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtV_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        android:text="@string/name"
+        android:onClick="clearEditor"
+        android:textColor="@color/light_blue"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTxt_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@color/light_blue"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/btn_add"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>
